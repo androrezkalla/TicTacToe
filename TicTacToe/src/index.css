@@ -1,0 +1,70 @@
+/* styles.css */
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 36px; 
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.square:hover {
+  background-color: #f3f3f3;
+}
+
+.square:disabled {
+  cursor: not-allowed;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.game-info {
+  font-size: 16px;
+}
+
+ol {
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li button:hover {
+  color: #666;
+}
